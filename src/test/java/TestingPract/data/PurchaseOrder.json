@@ -1,0 +1,19 @@
+[
+{
+	"email" : "vinitest@test.com",
+	"pass" : "Test@123",
+	"prodName" : "ZARA COAT 3" 
+},
+
+{
+	"email" : "vinitaest@test.com",
+	"pass" : "Test@123",
+	"prodName" : "ZARA COAT 3"
+},
+
+{
+	"email" : "vinit@test.com",
+	"pass" : "Test@123",
+	"prodName" : "ZARA COAT 3"
+}
+]	
