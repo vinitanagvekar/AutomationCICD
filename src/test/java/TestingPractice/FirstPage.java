@@ -37,9 +37,9 @@ public class FirstPage extends BaseClass{
 		LandinPage landing = new LandinPage(driver);
 		landing.loginApp(input.get("email"),input.get("pass"));
 //		Thread.sleep(1000);
-		ProductCatalogue pc = new ProductCatalogue(driver);
-		List<WebElement> products = pc.getProductList();
-		pc.addProductToCart(input.get("prodName"));
+		       //ProductCatalogue pc = new ProductCatalogue(driver);
+		       //List<WebElement> products = pc.getProductList();
+		        //pc.addProductToCart(input.get("prodName"));
 //		pc.goToCartPage();
 //		Thread.sleep(100);
 //		cartPage cp = new cartPage(driver);
@@ -48,7 +48,7 @@ public class FirstPage extends BaseClass{
 //		cp.goToCheckout();
 //		CheckoutPage checkout = new CheckoutPage(driver);
 //		checkout.countryLocation("India");
-		driver.findElement(By.cssSelector("li:nth-child(5) button:nth-child(1)")).click();
+		       //driver.findElement(By.cssSelector("li:nth-child(5) button:nth-child(1)")).click();
 		}
 	
 	
